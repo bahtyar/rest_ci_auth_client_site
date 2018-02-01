@@ -16,3 +16,4 @@
     ?>
 </table>
 <a href="http://localhost:8080/Tes-client/index.php/user/create">+ Tambah data<a>
+<?php echo anchor('login/logout', 'Logout'); ?>

@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','session');
 
 /*
 | -------------------------------------------------------------------
@@ -104,6 +104,15 @@ $autoload['helper'] = array();
 |
 */
 $autoload['config'] = array();
+
+/*
+| -------------------------------------------------------------------
+|  encrypt session
+| -------------------------------------------------------------------
+
+|
+*/
+$config['encryption_key'] = 'BEBEK123';
 
 /*
 | -------------------------------------------------------------------
